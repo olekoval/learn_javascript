@@ -1,0 +1,4 @@
+guess     	координата текущей попытки 
+hits        	количество попаданий hits=0
+guesses 	количество попыток guesses=0
+isSunk   	потоплен да/нет isSunk=false
