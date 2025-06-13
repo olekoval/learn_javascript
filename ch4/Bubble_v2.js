@@ -6,15 +6,15 @@ var max = scores[0]
 var N = 0
 var arr = [];
 
-function maX1(n) {
-    while (n < count) {
-        if (max < scores[n]) {
-            max = scores[n]
+function maX1(i) {
+    while (i < count) {
+        if (max < scores[i]) {
+            max = scores[i]
           }   
-        console.log("Bubble solution #", n, "score", scores[n]);
-        n = n + 1;
+        console.log("Bubble solution #", i, "score", scores[i]);
+        i = i + 1;
     }
-    console.log("Bubbles tests:", n);
+    console.log("Bubbles tests:", i);
     console.log("Highest bubble score:", max);
 }
 
@@ -27,7 +27,7 @@ function maX2(n){
         }
      n = n + 1;   
     }
-console.log(arr);    
+console.log("Solutions with highest score:", " #", arr[0] , ", #", arr[1])   
 }
 
 maX1(N);
